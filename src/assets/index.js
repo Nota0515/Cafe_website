@@ -1,6 +1,6 @@
 // Dosa images
 import jinidosa from './jinidosa.jpeg';
-import maisoredosa from './maisoredosa.jpeg';
+import maisoredosa from './maisoredosa.png';
 import noodledosa from './noodledosa.jpeg';
 import oniondosa from './oniondosa.jpeg';
 import pannerdosa from './pannerdosa.jpeg';
@@ -10,17 +10,17 @@ import sadosa from './sadosa.jpeg';
 import setdosa from './setdosa.jpeg';
 
 // Idli & Vada images
-import idli from './idli&vada/idli.jpeg';
-import idlilfry from './idli&vada/idlifry.jpeg';
-import idlivada from './idli&vada/idlivada.jpeg';
-import jainidli from './idli&vada/jainidlifry.jpeg';
+import idli from './idli&vada/idli.jpg';
+import idlilfry from './idli&vada/idlifry.jpg';
+import idlivada from './idli&vada/idlivada.png';
+import jainidli from './idli&vada/jainidlifry.jpg';
 import vada from './idli&vada/vada.jpeg';
-import vadandalvada from './idli&vada/vada&dalvada.jpeg';
+import vadandalvada from './idli&vada/vada&dalvada.jpg';
 
 // Rice images
 import curdRice from './rice/curdrice.jpeg';
 import lemonRice from './rice/lemonrice.jpeg';
-import sambharRice from './rice/sambharice.jpeg';
+import sambharRice from './rice/sambarice.jpeg';
 import tomatoRice from './rice/tomatorice.jpeg';
 
 // Uttapam images
@@ -28,6 +28,9 @@ import masalaUttapam from './uttapam/masala.jpeg';
 import onionUttapam from './uttapam/onion.jpeg';
 import sadaUttapam from './uttapam/sada.jpeg';
 import tomatoUttapam from './uttapam/tomatonion.jpeg';
+
+//logo 
+import saravanalogo from './brandlogo.jpg';
 
 export {
   // Dosa exports
@@ -46,7 +49,6 @@ export {
   idlilfry,
   idlivada,
   jainidli,
-  sadaidli,
   vada,
   vadandalvada,
   
@@ -61,4 +63,7 @@ export {
   onionUttapam,
   sadaUttapam,
   tomatoUttapam,
+
+  //logo exports
+  saravanalogo,
 };
