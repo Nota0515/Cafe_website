@@ -30,7 +30,7 @@ import sadaUttapam from './uttapam/sada.jpeg';
 import tomatoUttapam from './uttapam/tomatonion.jpeg';
 
 //logo 
-import saravanalogo from './brandlogo.jpg';
+import saravanalogo from './brandlogo.png';
 
 export {
   // Dosa exports

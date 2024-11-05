@@ -14,10 +14,10 @@ export default {
           4: "#F0DDCA"
         },
         n:{
-          1: "#ED7D2B",
-          2: "#1C120D",
-          3: "#FFFBF3",
-          4: "#F0DDCA",
+          1: "#ffffff",
+          2: "#141412",
+          3: "#DDBE63",
+          4: "#FF8800",
         },
       },
       backgroundImage:{
@@ -30,6 +30,10 @@ export default {
       },
       transitionDuration : {
         DEFAULT : "200ms"
+      },
+      fontFamily :{
+        montserrat: ['Montserrat', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       }
     },
   },
