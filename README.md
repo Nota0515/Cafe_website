@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Saravanadosa 🍲
 
 Welcome to the **Saravanadosa** repository! This project is a modern, responsive website for a cozy and delicious food café. Whether you're craving breakfast, lunch, or a sweet dessert, this café's site has it all covered.
@@ -64,8 +63,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-Enjoy coding and building delicious experiences with **Café Delight**! 🍽️
+Enjoy coding and building delicious experiences with **saravanadosa**! 🍽️
 =======
 # Cafe_website
 This is a simple static website for "Saravana Dosa" is a food cafe reside at Malad (west)
->>>>>>> 61200cd6e4a44cdc9a16905ec13f1800a54de47f
