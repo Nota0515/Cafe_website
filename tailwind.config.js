@@ -36,6 +36,10 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
       }
     },
+    screens:{
+      'lg': '1600px',
+      'md': '1024px',
+    }
   },
   plugins: [],
 }
