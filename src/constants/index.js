@@ -1,22 +1,22 @@
 export const navigation = [
     {
       id: "0",
-      title: "Menu",
+      title: "menu",
       url: "#menu",
     },
     {
       id: "1",
-      title: "Reviews",
+      title: "reviews",
       url: "#reviews",
     },
     {
       id: "2",
-      title: "Findus",
+      title: "findus",
       url: "#findus",
     },
     {
       id: "3",
-      title: "About",
+      title: "about",
       url: "#about",
     },
   ];

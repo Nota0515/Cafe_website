@@ -13,7 +13,7 @@ const Header = () => {
         <nav className=' hidden md:flex lg:flex fixed lg:static justify-center items-center mx-10 px-5 left-1/2 lg:left-0 lg:-translate-x-0 lg:top-0 lg:scale-110 -translate-x-1/2 scale-150 md:top-14 top-1/2'>
            <div className='relative z-2 flex items-center flex-col  justify-center m-auto md:flex-row lg:flex-row'>
               {navigation.map((item)=>(
-                <a key={item.id} className='block lg:text-2xl font-poppins font-semibold px-4 lg:px-[2.5rem] py-6' href={item.url}>{item.title}</a>
+                <a key={item.id} className='block lg:text-2xl font-poppins font-semibold px-4 lg:px-[2.5rem] py-6 ' href={item.url}>{item.title}</a>
               ))}
             </div> 
         </nav>
