@@ -32,6 +32,12 @@ import tomatoUttapam from './uttapam/tomatonion.jpeg';
 //logo 
 import saravanalogo from './brandlogo.png';
 
+//heroimages
+import hero1 from './hero-images/image1.jpg';
+import hero3 from './hero-images/image2.jpg';
+import hero4 from './hero-images/image3.jpg';
+import hero2 from './hero-images/image4.jpg';
+
 export {
   // Dosa exports
   jinidosa,
@@ -66,4 +72,10 @@ export {
 
   //logo exports
   saravanalogo,
+
+  //hero
+  hero1,
+  hero2,
+  hero3,
+  hero4,
 };

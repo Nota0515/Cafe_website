@@ -11,8 +11,8 @@ const App = () => {
     <>
       <div className="pt-[4.5rem] lg:pt-[5.25rem]  overflow-hidden">
         <Header />
-        {/*<Hero />
-        <Menuitems />
+        <Hero />
+        {/*<Menuitems />
         <Speciality />
         <Feedback />
         <Findus />

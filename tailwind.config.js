@@ -38,7 +38,7 @@ export default {
     },
     screens:{
       'lg': '1600px',
-      'md': '1024px',
+      'md': '1280px',
     }
   },
   plugins: [],
