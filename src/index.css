@@ -13,3 +13,13 @@
     @apply bg-n-2 text-n-1 ;
   }
 }
+
+@layer base {
+  body {
+    overflow-y: scroll;
+}
+  body::-webkit-scrollbar {
+    display: none;
+}
+
+}
