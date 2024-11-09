@@ -9,15 +9,13 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <>
-      <div className="pt-[4.5rem] lg:pt-[5.25rem]  overflow-hidden">
-        <Header />
-        <Hero />
-        {/*<Menuitems />
-        <Speciality />
-        <Feedback />
-        <Findus />
-        <Footer />*/}
-      </div>
+      <Header />
+      <Hero />
+      {/*<Menuitems />
+      <Speciality />
+      <Feedback />
+      <Findus />
+      <Footer />*/}
     </>
   )
 }
