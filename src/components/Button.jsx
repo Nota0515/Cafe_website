@@ -1,6 +1,6 @@
 const Button = ({children , className , href , onClick }) => {
 
-  const classes = `${className || ''} relative inline-flex items-center justify-center h-11 p-1 transition-color bg-n-1 text-n-2 hover:bg-n-4 hover:text-n-1`
+  const classes = `${className || ''} relative inline-flex items-center justify-center h-11 p-1 transition-color `
 
   const renderButton = () =>(
     <button className={classes} onClick={onClick}>

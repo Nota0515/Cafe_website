@@ -2,16 +2,16 @@ export const navigation = [
     {
       id: "0",
       title: "Home",
-      url: "#menu",
+      url: "#home",
     },
     {
       id: "1",
       title: "Menu",
-      url: "#reviews",
+      url: "#menu",
     },
     {
       id: "2",
-      title: "Find Us",
+      title: "Find_Us",
       url: "#findus",
     },
     {

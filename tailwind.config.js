@@ -37,8 +37,9 @@ export default {
       }
     },
     screens:{
-      'lg': '1600px',
-      'md': '1280px',
+      'xl': '1280px',
+      'lg': '1024px',
+      'md': '768px',
     }
   },
   plugins: [],
