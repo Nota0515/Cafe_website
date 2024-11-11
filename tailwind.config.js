@@ -11,13 +11,14 @@ export default {
           1: "#ED7D2B",
           2: "#1C120D",
           3: "#FFFBF3",
-          4: "#F0DDCA"
+          4: "#F0DDCA",
         },
         n:{
           1: "#ffffff",
           2: "#141412",
           3: "#DDBE63",
           4: "#FF8800",
+          5:'#2A2A24',
         },
       },
       backgroundImage:{
