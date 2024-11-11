@@ -1,7 +1,7 @@
 import {saravanalogo} from '../assets';
 import { navigation } from '../constants';
 import { IoReorderThreeOutline } from "react-icons/io5";
-import Button from './Button'
+import Button from '../components/Button'
 import { useState } from 'react';
 
 const Header = () => {

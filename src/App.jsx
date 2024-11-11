@@ -1,10 +1,5 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Menuitems from './components/Menuitems';
-import Speciality from './components/Speciality';
-import Feedback from './components/Feedback';
-import Findus from './components/Findus';
-import Footer from './components/Footer';
+import Header from './sections/Header';
+import Hero from './sections/Hero';
 
 const App = () => {
   return (

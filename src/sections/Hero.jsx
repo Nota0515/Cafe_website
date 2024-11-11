@@ -1,5 +1,5 @@
 import { anna } from '../assets';
-import Button from './Button';
+import Button from '../components/Button';
 
 const Hero = () => {
   return (
