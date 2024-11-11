@@ -12,6 +12,7 @@ export default {
           2: "#1C120D",
           3: "#FFFBF3",
           4: "#F0DDCA",
+          5: "#81817E"
         },
         n:{
           1: "#ffffff",
@@ -41,6 +42,7 @@ export default {
       'xl': '1280px',
       'lg': '1024px',
       'md': '768px',
+      'sm': '640px',
     }
   },
   plugins: [],
