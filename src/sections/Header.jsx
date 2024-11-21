@@ -1,6 +1,7 @@
 import {saravanalogo} from '../assets';
 import { navigation } from '../constants';
 import { IoReorderThreeOutline } from "react-icons/io5";
+import { RxCross2 } from "react-icons/rx";
 import Button from '../components/Button'
 import { useState } from 'react';
 
@@ -42,14 +43,16 @@ const Header = () => {
             <div className={`navelements relative z-2 flex flex-col gap-20 md:gap-5 lg:gap-10 items-center justify-center m-auto md:flex-row lg:flex-row`}>
               {navigation.map((item)=>(
                 <span key={item.id}>
-                  <a className='text-n-1 text-2xl md:text-base font-poppins' href={item.url} onClick={handleclick}>{item.title}</a>
+                  <a className='text-n-1 text-2xl md:text-base font-poppins hover:underline ' href={item.url} onClick={handleclick}>{item.title}</a>
                 </span>
               ))}
             </div>
           </nav>
           <div className='md:hidden w-10 h-10 mt-1'>
-            <Button className="ml-auto md:hidden bg-transparent" onClick={toggleNavigation}>
-             <IoReorderThreeOutline size={40} color='#ffffff'/>
+            <Button className="ml-auto md:hidden bg-transparent transition-transform" onClick={toggleNavigation}>
+             {
+              openNavigation ? <RxCross2 size={40} color='#ffffff' /> : <IoReorderThreeOutline size={40} color='#ffffff'/>
+             }
             </Button>
           </div>
         </div>
