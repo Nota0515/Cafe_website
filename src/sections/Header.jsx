@@ -49,7 +49,7 @@ const Header = () => {
             </div>
           </nav>
           <div className='md:hidden w-10 h-10 mt-1'>
-            <Button className="ml-auto md:hidden bg-transparent transition-transform" onClick={toggleNavigation}>
+            <Button className="ml-auto md:hidden bg-transparent" onClick={toggleNavigation}>
              {
               openNavigation ? <RxCross2 size={40} color='#ffffff' /> : <IoReorderThreeOutline size={40} color='#ffffff'/>
              }
