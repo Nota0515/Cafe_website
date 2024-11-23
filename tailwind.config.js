@@ -20,6 +20,7 @@ export default {
           3: "#DDBE63",
           4: "#FF8800",
           5:'#2A2A24',
+          6: '#302828'
         },
       },
       backgroundImage:{
