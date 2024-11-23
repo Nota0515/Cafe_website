@@ -31,7 +31,9 @@ import tomatoUttapam from './uttapam/tomatonion.jpeg';
 
 //logo 
 import saravanalogo from './brandlogo.png';
+//feature image
 
+import feature1 from './feature.jpg'
 //anna import
 import anna from './annalogo.jpeg'
 
@@ -60,6 +62,9 @@ export {
   jainidli,
   vada,
   vadandalvada,
+
+  //feature exports
+  feature1,
   
   // Rice exports
   curdRice,

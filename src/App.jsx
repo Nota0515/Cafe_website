@@ -1,13 +1,14 @@
 import Header from './sections/Header';
 import Hero from './sections/Hero';
+import Featured from './sections/Featured'
 
 const App = () => {
   return (
     <>
       <Header />
       <Hero />
-      {/*<Menuitems />
-      <Speciality />
+      <Featured />
+      {/*<Speciality />
       <Feedback />
       <Findus />
       <Footer />*/}
