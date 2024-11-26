@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <div className='relative w-full h-20'>
-      <div className='fixed top-0 left-0 w-full h-20 z-50 px-5 py-4 bg-n-2 border-b border-b-n-3'>
+      <div className='fixed top-0 left-0 w-screen h-20 z-50 px-5 py-4 bg-n-2 border-b border-b-n-3'>
         <div className='relative flex flex-row justify-center gap-2 md:gap-5 w-full h-10'>
           <div className='logo flex-shrink-0 w-10 h-10 rounded-full ml-auto'>
             <img src={saravanalogo} alt='brandlogo'/>
