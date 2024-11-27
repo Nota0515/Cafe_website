@@ -1,5 +1,5 @@
-import { feature1, hero1 } from "../assets";
-import MenuItems from "../components/MenuItems";
+import { feature1,} from "../assets";
+import Card from "../components/Card"
 
 const Feature = () => {
   return (
@@ -14,6 +14,11 @@ const Feature = () => {
             <span className="text-n-3 font-poppins text-4xl font-semibold">Features Dishes</span>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col gap-y-10 md:flex-row lg:flex-row justify-evenly w-full gap-x-10 flex-wrap bg-black">
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   )

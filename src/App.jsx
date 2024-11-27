@@ -8,8 +8,7 @@ const App = () => {
       <Header />
       <Hero />
       <Featured />
-      {/*<Speciality />
-      <Feedback />
+      {/*<Feedback />
       <Findus />
       <Footer />*/}
     </>
