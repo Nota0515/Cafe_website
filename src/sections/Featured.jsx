@@ -15,11 +15,6 @@ const Feature = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-y-10 md:flex-row lg:flex-row justify-evenly w-full gap-x-10 flex-wrap bg-black">
-        <Card />
-        <Card />
-        <Card />
-      </div>
     </div>
   )
 }

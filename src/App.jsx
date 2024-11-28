@@ -1,6 +1,7 @@
 import Header from './sections/Header';
 import Hero from './sections/Hero';
 import Featured from './sections/Featured'
+import Speciality from './sections/Speciality';
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <Hero />
       <Featured />
+      <Speciality />
       {/*<Feedback />
       <Findus />
       <Footer />*/}
