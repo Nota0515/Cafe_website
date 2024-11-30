@@ -39,9 +39,9 @@ import anna from './annalogo.jpeg'
 
 //heroimages
 import hero1 from './hero-images/image1.jpg';
-import hero3 from './hero-images/image2.jpg';
-import hero4 from './hero-images/image3.jpg';
-import hero2 from './hero-images/image4.jpg';
+import hero2 from './hero-images/image2.jpg';
+import hero3 from './hero-images/image3.jpg';
+import hero4 from './hero-images/image4.jpg';
 
 export {
   // Dosa exports
