@@ -24,7 +24,8 @@ export default {
           3: "#DDBE63",
           4: "#FF8800",
           5:'#2A2A24',
-          6: '#302828'
+          6: '#302828',
+          7: "#FFFFDC"
         },
       },
       backgroundImage:{
@@ -41,7 +42,11 @@ export default {
       fontFamily :{
         montserrat: ['Montserrat', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
-      }
+      },
+      boxShadow: {
+        'inner-strong': 'inset 0 4px 6px rgba(0, 0, 0, 0.6)',
+        'inner-darkest': 'inset 0 4px 10px rgba(0, 0, 0, 0.9)'
+      },
     },
     screens:{
       'xl': '1280px',
