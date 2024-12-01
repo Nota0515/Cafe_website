@@ -1,5 +1,4 @@
 import { feature1,} from "../assets";
-import Card from "../components/Card"
 
 const Feature = () => {
   return (
