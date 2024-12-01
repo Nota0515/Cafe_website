@@ -43,6 +43,12 @@ import hero2 from './hero-images/image2.jpg';
 import hero3 from './hero-images/image3.jpg';
 import hero4 from './hero-images/image4.jpg';
 
+//review people images
+import man1 from './reviews-img/man1.png';
+import man2 from './reviews-img/man2.png';
+import man3 from './reviews-img/man3.png';
+import women1 from './reviews-img/women1.png';
+
 export {
   // Dosa exports
   jinidosa,
@@ -88,4 +94,10 @@ export {
   hero2,
   hero3,
   hero4,
+
+  //review img
+  man1,
+  man2,
+  man3,
+  women1,
 };
