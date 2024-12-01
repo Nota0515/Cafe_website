@@ -1,5 +1,5 @@
 import Card from "../components/Card"
-import { hero4 , hero1 , hero3, jinidosa, oniondosa, maisoredosa, pannerdosa, noodledosa } from "../assets"
+import { hero4 , hero1 , hero3, jinidosa, } from "../assets"
 
 const Speciality = () => {
   return (
