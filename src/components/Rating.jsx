@@ -1,6 +1,6 @@
 import { FaStar , FaStarHalf } from "react-icons/fa";
 
-const Rating = ({num}) => {
+const Rating = ({num , className}) => {
   const rating = [];
   if(num==4.5){
     for (let i=0; i<4; i++){
@@ -14,7 +14,7 @@ const Rating = ({num}) => {
   }
 
   return (
-    <div className="flex items-center">
+    <div className={`flex items-center ${className || ''}`}>
       {rating}
     </div>
   )
