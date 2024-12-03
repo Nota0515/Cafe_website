@@ -49,6 +49,9 @@ import man2 from './reviews-img/man2.png';
 import man3 from './reviews-img/man3.png';
 import women1 from './reviews-img/women1.png';
 
+//diya gif import 
+import diya from './FeaturesAssets/diya.gif';
+
 export {
   // Dosa exports
   jinidosa,
@@ -100,4 +103,8 @@ export {
   man2,
   man3,
   women1,
+
+  //diya
+
+  diya,
 };
