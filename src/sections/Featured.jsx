@@ -1,4 +1,4 @@
-import { feature1,} from "../assets";
+import { diya, feature1,} from "../assets";
 
 const Feature = () => {
   return (
@@ -8,7 +8,9 @@ const Feature = () => {
           <img src={feature1} alt="storeImage" />
         </div>
         <div className="flex-col flex w-full min-h-[159px] gap-y-[24px]">
-          <div className="w-[109px] h-[87px] rounded-xl mt-10 bg-n-6 "></div>
+          <div className="relative w-[109px] h-[87px] rounded-xl mt-10 bg-n-6">
+            <img src={diya} alt="diyaGif" className="absolute -top-3 scale-90" />
+          </div>
           <div>
             <span className="text-n-3 font-poppins text-4xl font-semibold">Features Dishes</span>
           </div>
