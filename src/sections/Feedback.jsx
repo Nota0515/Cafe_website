@@ -1,4 +1,4 @@
-import {man1, man2,man3, women1} from "../assets"
+import {man1, man2,man3, toran, women1} from "../assets"
 import ReviewCard from "../components/ReviewCard";
 
 const Feedback = () => {
@@ -30,8 +30,11 @@ const Feedback = () => {
           />
         </div>
       </div>
-      <div className="image shrink-0 max-w-[32.5rem] max-h-[30.75rem] overflow-hidden border-2 rounded-xl border-n-7 shadow-inner-darkest">
+      <div className="image relative shrink-0 max-w-[32.5rem] max-h-[30.75rem] overflow-hidden border-2 rounded-xl border-n-7 shadow-inner-darkest">
         <img className="" src={man1} />
+        <div className=" absolute top-0 z-10 hover:drop-shadow-xl ">
+         <img className="" src={toran} />
+        </div>
       </div>
     </div>
   )

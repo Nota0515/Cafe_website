@@ -47,6 +47,9 @@ export default {
         'inner-strong': 'inset 0 4px 6px rgba(0, 0, 0, 0.6)',
         'inner-darkest': 'inset 0 4px 10px rgba(0, 0, 0, 0.9)'
       },
+      dropShadow: {
+        'xl': '0 35px 35px rgba(221, 190, 99, 0.3)',
+      }
     },
     screens:{
       'xl': '1280px',
