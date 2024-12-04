@@ -52,6 +52,9 @@ import women1 from './reviews-img/women1.png';
 //diya gif import 
 import diya from './FeaturesAssets/diya.gif';
 
+//torant import
+import toran from '../assets/toran.png'
+
 export {
   // Dosa exports
   jinidosa,
@@ -107,4 +110,7 @@ export {
   //diya
 
   diya,
+
+  //toran
+  toran,
 };
