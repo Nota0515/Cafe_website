@@ -3,6 +3,7 @@ import Hero from './sections/Hero';
 import Featured from './sections/Featured'
 import Speciality from './sections/Speciality';
 import Feedback from './sections/Feedback';
+import Footer from './sections/Footer';
 
 const App = () => {
   return (
@@ -12,8 +13,8 @@ const App = () => {
       <Featured />
       <Speciality />
       <Feedback />
-      {/*<Findus />
-      <Footer />*/}
+      {/*<Findus />*/}
+      <Footer />
     </>
   )
 }

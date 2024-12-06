@@ -53,7 +53,10 @@ import women1 from './reviews-img/women1.png';
 import diya from './FeaturesAssets/diya.gif';
 
 //torant import
-import toran from '../assets/toran.png'
+import toran from '../assets/toran.png';
+
+//DesignStudioLogo
+import pixels_akhil from '../assets/Nobitapf.jpg';
 
 export {
   // Dosa exports
@@ -113,4 +116,7 @@ export {
 
   //toran
   toran,
+
+  //nobita
+  pixels_akhil,
 };
