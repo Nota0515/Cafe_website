@@ -3,7 +3,7 @@ import ReviewCard from "../components/ReviewCard";
 
 const Feedback = () => {
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row max-w-full justify-center mt-5 mx-5 gap-y-10 gap-x-16 lg:px-[170px] md:px-[84px] px-10 py-10 md:py-[30px] lg:py-[60px] bg-n-2">
+    <div className="flex flex-col md:flex-row lg:flex-row max-w-full justify-center mt-5 mx-5 gap-y-10 gap-x-16 lg:px-[170px] md:px-[84px] px-5 py-10 md:py-[30px] lg:py-[60px] bg-n-2">
       <div className="flex flex-col w-fit h-fit gap-y-16">
         <div className="mt-1"><span className="text-5xl font-poppins font-semibold ">Custumer Reviews</span></div>
         <div className="flex flex-row flex-wrap w-full h-full gap-y-10 gap-x-10 py-5">
