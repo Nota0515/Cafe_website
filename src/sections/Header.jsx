@@ -39,11 +39,11 @@ const Header = () => {
           <div className='logotext relative mt-2 w-[62rem]'>
             <span className='absolute left-0 text-2xl bottom-0 md:text-3xl text-n-3 font-poppins font-medium'>Saravana Dosa</span>
           </div>
-          <nav className={`${openNavigation ? 'flex' : "hidden"} fixed backdrop-blur-sm bg-n-3/10 md:bg-transparent top-0 left-0 right-0 bottom-0 lg:static md:static md:mx-auto lg:flex md:flex lg:mx-auto`}>
+          <nav className={`${openNavigation ? 'flex' : "hidden"} fixed backdrop-blur-lg bg-n-2/90 md:bg-transparent top-0 left-0 right-0 bottom-0 lg:static md:static md:mx-auto lg:flex md:flex lg:mx-auto`}>
             <div className={`navelements relative z-2 flex flex-col gap-20 md:gap-5 lg:gap-10 items-center justify-center m-auto md:flex-row lg:flex-row`}>
               {navigation.map((item)=>(
                 <span key={item.id}>
-                  <a className='text-n-1 text-2xl md:text-base font-poppins hover:underline ' href={item.url} onClick={handleclick}>{item.title}</a>
+                  <a className='text-n-1 text-2xl md:text-base font-poppins hover:underline' href={item.url} onClick={handleclick}>{item.title}</a>
                 </span>
               ))}
             </div>
