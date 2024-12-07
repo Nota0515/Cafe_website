@@ -48,6 +48,7 @@ import man1 from './reviews-img/man1.png';
 import man2 from './reviews-img/man2.png';
 import man3 from './reviews-img/man3.png';
 import women1 from './reviews-img/women1.png';
+import saravanaimg from '../assets/sarana.png';
 
 //diya gif import 
 import diya from './FeaturesAssets/diya.gif';
@@ -109,6 +110,7 @@ export {
   man2,
   man3,
   women1,
+  saravanaimg,
 
   //diya
 
