@@ -59,6 +59,10 @@ import toran from '../assets/toran.png';
 //DesignStudioLogo
 import pixels_akhil from '../assets/Nobitapf.jpg';
 
+//map assests
+import saranaimg from '../assets/saranaMap.png'
+import map from "../assets/map.png"
+ 
 export {
   // Dosa exports
   jinidosa,
@@ -121,4 +125,8 @@ export {
 
   //nobita
   pixels_akhil,
+
+  //map related
+  saranaimg,
+  map,
 };
