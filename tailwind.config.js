@@ -45,7 +45,8 @@ export default {
       },
       boxShadow: {
         'inner-strong': 'inset 0 4px 6px rgba(0, 0, 0, 0.6)',
-        'inner-darkest': 'inset 0 4px 10px rgba(0, 0, 0, 0.9)'
+        'inner-darkest': 'inset 0 4px 10px rgba(0, 0, 0, 0.9)',
+        '3xl': '7px 7px 5px 0 rgba(0, 0, 0, 0.5)',
       },
       dropShadow: {
         'xl': '0 35px 35px rgba(221, 190, 99, 0.3)',
