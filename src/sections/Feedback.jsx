@@ -30,7 +30,7 @@ const Feedback = () => {
           />
         </div>
       </div>
-      <div className="image relative shrink-0 max-w-[32.5rem] max-h-[30.75rem] overflow-hidden border-2 rounded-xl border-n-7 shadow-inner-darkest">
+      <div className="image relative shrink-0 max-w-[32.5rem] max-h-[30.75rem] overflow-hidden border-2 rounded-xl border-n-7 shadow-inner-darkest hover-shadow">
         <img className="w-full h-full object-cover" src={saravanaimg} />
         <div className=" absolute top-0 z-10 hover:drop-shadow-xl w-full ">
          <img className="w-full h-full object-cover" src={toran} />
