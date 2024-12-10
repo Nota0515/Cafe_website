@@ -60,7 +60,7 @@ import toran from '../assets/toran.png';
 import pixels_akhil from '../assets/Nobitapf.jpg';
 
 //map assests
-import saranaimg from '../assets/saranaMap.png'
+import saranaimg from '../assets/saranamap.png'
 import map from "../assets/map.png"
  
 export {
